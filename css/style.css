@@ -1,0 +1,21 @@
+ .row{
+    border: solid 2px red;
+    padding: 1rem;
+ }
+ .col{
+    border: solid 2px red;
+    padding: 1rem;
+ }
+ .container{
+    border: solid 2px black;
+ }
+
+ .grid{
+    display: grid;
+    grid-template-columns: 4rem 12rem auto 4rem;
+    border: 2px solid green;
+    div{
+        border: solid 2px green;
+        padding: 1rem;
+    }
+ }
